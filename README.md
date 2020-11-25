@@ -7,8 +7,8 @@ Exercise problems by RTS labs
 
 ### 3  If you could change 1 thing about your favorite framework/language/platform (pick one), what would it be?
  - Since I have worked more on Java I would like to share my thoughts on that,
- - One thing that I would like to mention is the concept of Object cloning in Java. There are 3 different ways to create copy of objects - Shallow copy, deep copy and cloning.
- - I would like to give an example to explain cloning in Java.
+ - One thing that I want to mention is the concept of Object cloning in Java. There are 3 different ways to create copy of objects - Shallow copy, deep copy and cloning.
+ - I am going to explain cloning with an example.
  **Example:** 
  ```java
  class Cloning{
