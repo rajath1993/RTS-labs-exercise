@@ -31,6 +31,7 @@ public class IdentifyAboveBelow {
 	public static void checkAboveAndBelow(int[] list, int checkNum) {		
 		int above = 0;
 		int below = 0;
+		/*every element in the array is iterated and checked if its value is above or below the given number*/
 		for(int x:list) {
 			if(x<checkNum) {
 				below++;
@@ -43,5 +44,9 @@ public class IdentifyAboveBelow {
 		System.out.println("above:"+above+" below:"+below);
 		
 	}
+	
+	/*Time Complexity: Every element in the array is checked once, so the time complexity would be O(n)
+	 * Space Complexity: The space complexity of this solution is O(1), there is no auxiliary space.
+	 * */
 
 }

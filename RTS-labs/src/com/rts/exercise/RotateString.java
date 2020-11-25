@@ -25,6 +25,7 @@ public class RotateString {
 	/*overflow appears at the beginning, made use of modulus to handle it.*/
 	public static void rotateString(String inputString,int num) {
 		String res = "";
+		/*identifying the prefix & suffix of the rotated string, by taking the substring*/
 		String prefix = inputString.substring(inputString.length()-(num%inputString.length()), inputString.length());
 		String suffix = inputString.substring(0,inputString.length()-(num%inputString.length()));
 		
@@ -32,5 +33,10 @@ public class RotateString {
 		
 		System.out.println(res);
 	}
+	
+	/*
+	 * Time Complexity: The Java method substring takes a time of O(n) from Java 7 onwards
+	 * Space Complexity: String takes a space of O(n).
+	 * */
 
 }
